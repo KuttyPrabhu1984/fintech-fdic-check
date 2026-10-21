@@ -1,0 +1,1540 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.10.22-1",
+  "generated": "2026-10-22",
+  "note": "Every item with verified:true maps to a source fetched on lastVerified. verified:false items are shown as Unverified.",
+  "sources": {
+    "fdic-udi": {
+      "title": "Understanding Deposit Insurance",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "fdic-brochure": {
+      "title": "Your Insured Deposits",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "cfpb-synapse": {
+      "title": "Synapse Financial Technologies, Inc. (enforcement action)",
+      "url": "https://www.consumerfinance.gov/enforcement/actions/synapse-financial-technologies-inc/",
+      "publisher": "CFPB",
+      "fetched": "2026-10-22"
+    },
+    "bankfind-api": {
+      "title": "FDIC BankFind Suite API — institutions",
+      "url": "https://api.fdic.gov/banks/institutions",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "chime": {
+      "title": "Chime home page footer disclosures",
+      "url": "https://www.chime.com/",
+      "publisher": "Chime",
+      "fetched": "2026-10-22",
+      "method": "WebFetch (curl returned 403)"
+    },
+    "sofi": {
+      "title": "SoFi Insured Deposit Program page",
+      "url": "https://www.sofi.com/banking/fdic/",
+      "publisher": "SoFi",
+      "fetched": "2026-10-22"
+    },
+    "cashapp": {
+      "title": "Cash App Terms of Service (Last Updated September 11, 2026)",
+      "url": "https://cash.app/legal/us/en-us/tos",
+      "publisher": "Block, Inc.",
+      "fetched": "2026-10-22"
+    },
+    "venmo": {
+      "title": "Venmo User Agreement (effective August 24, 2026)",
+      "url": "https://venmo.com/legal/us-user-agreement/",
+      "publisher": "PayPal, Inc.",
+      "fetched": "2026-10-22"
+    },
+    "paypal": {
+      "title": "PayPal User Agreement (last updated September 14, 2026)",
+      "url": "https://www.paypal.com/us/legalhub/paypal/useragreement-full",
+      "publisher": "PayPal, Inc.",
+      "fetched": "2026-10-22"
+    },
+    "wise": {
+      "title": "Wise US home page disclosures",
+      "url": "https://wise.com/us/",
+      "publisher": "Wise",
+      "fetched": "2026-10-22"
+    },
+    "robinhood-banking": {
+      "title": "Robinhood Banking page",
+      "url": "https://robinhood.com/us/en/banking/",
+      "publisher": "Robinhood",
+      "fetched": "2026-10-22"
+    },
+    "robinhood-home": {
+      "title": "Robinhood home page disclosures",
+      "url": "https://robinhood.com/us/en/",
+      "publisher": "Robinhood",
+      "fetched": "2026-10-22"
+    },
+    "wealthfront": {
+      "title": "Wealthfront Disclosures",
+      "url": "https://www.wealthfront.com/legal/disclosure",
+      "publisher": "Wealthfront",
+      "fetched": "2026-10-22"
+    },
+    "ally": {
+      "title": "Ally Bank — FDIC insurance",
+      "url": "https://www.ally.com/bank/fdic/",
+      "publisher": "Ally",
+      "fetched": "2026-10-22"
+    },
+    "current": {
+      "title": "Current home page disclosures",
+      "url": "https://current.com/",
+      "publisher": "Current",
+      "fetched": "2026-10-22"
+    },
+    "varo": {
+      "title": "Varo home page footer",
+      "url": "https://www.varomoney.com/",
+      "publisher": "Varo",
+      "fetched": "2026-10-22"
+    },
+    "dave": {
+      "title": "Dave Disclosures (last update October 9, 2026)",
+      "url": "https://dave.com/legal",
+      "publisher": "Dave",
+      "fetched": "2026-10-22"
+    },
+    "revolut": {
+      "title": "Revolut Google Play listing (developer-provided text)",
+      "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
+      "publisher": "Revolut via Google Play",
+      "fetched": "2026-10-22",
+      "method": "revolut.com returned 403 to all fetch methods"
+    },
+    "betterment": {
+      "title": "Betterment Cash Sweep Program | Program Banks (updated April 20, 2026)",
+      "url": "https://www.betterment.com/legal/cash-reserve-program-banks",
+      "publisher": "Betterment",
+      "fetched": "2026-10-22"
+    },
+    "acorns": {
+      "title": "Acorns home page disclosures",
+      "url": "https://www.acorns.com/",
+      "publisher": "Acorns",
+      "fetched": "2026-10-22"
+    },
+    "albert": {
+      "title": "Albert home page disclosures",
+      "url": "https://albert.com/",
+      "publisher": "Albert",
+      "fetched": "2026-10-22"
+    }
+  },
+  "banks": {
+    "628": {
+      "cert": 628,
+      "name": "JPMorgan Chase Bank, National Association",
+      "active": true,
+      "city": "Columbus",
+      "state": "Ohio",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/628",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22JPMorgan%20Chase%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "3511": {
+      "cert": 3511,
+      "name": "Wells Fargo Bank, National Association",
+      "active": true,
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/3511",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Wells%20Fargo%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "4091": {
+      "cert": 4091,
+      "name": "Stride Bank, National Association",
+      "active": true,
+      "city": "Enid",
+      "state": "Oklahoma",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/4091",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Stride%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "5962": {
+      "cert": 5962,
+      "name": "Sutton Bank",
+      "active": true,
+      "city": "Attica",
+      "state": "Ohio",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/5962",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Sutton%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "8283": {
+      "cert": 8283,
+      "name": "Lead Bank",
+      "active": true,
+      "city": "Kansas City",
+      "state": "Missouri",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/8283",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Lead%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "9423": {
+      "cert": 9423,
+      "name": "Choice Financial Group",
+      "active": true,
+      "city": "Fargo",
+      "state": "North Dakota",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/9423",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Choice%20Financial%20Group%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "14207": {
+      "cert": 14207,
+      "name": "Lincoln Savings Bank",
+      "active": true,
+      "city": "Reinbeck",
+      "state": "Iowa",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/14207",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Lincoln%20Savings%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "22653": {
+      "cert": 22653,
+      "name": "Green Dot Bank DBA Bonneville Bank",
+      "active": true,
+      "city": "Provo",
+      "state": "Utah",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/22653",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?search=NAME:Green%20Dot&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "26881": {
+      "cert": 26881,
+      "name": "SoFi Bank, National Association",
+      "active": true,
+      "city": "Cottonwood Heights",
+      "state": "Utah",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/26881",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22SoFi%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "27314": {
+      "cert": 27314,
+      "name": "Synchrony Bank",
+      "active": true,
+      "city": "Draper",
+      "state": "Utah",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/27314",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Synchrony%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "34403": {
+      "cert": 34403,
+      "name": "Coastal Community Bank",
+      "active": true,
+      "city": "Everett",
+      "state": "Washington",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/34403",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Coastal%20Community%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "35014": {
+      "cert": 35014,
+      "name": "nbkc bank",
+      "active": true,
+      "city": "Leawood",
+      "state": "Kansas",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/35014",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22nbkc%20bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "35444": {
+      "cert": 35444,
+      "name": "The Bancorp Bank, National Association",
+      "active": true,
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/35444",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22The%20Bancorp%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "57129": {
+      "cert": 57129,
+      "name": "Community Federal Savings Bank",
+      "active": true,
+      "city": "Woodhaven",
+      "state": "New York",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57129",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Community%20Federal%20Savings%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "57803": {
+      "cert": 57803,
+      "name": "Ally Bank",
+      "active": true,
+      "city": "Sandy",
+      "state": "Utah",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/57803",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Ally%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "58410": {
+      "cert": 58410,
+      "name": "Cross River Bank",
+      "active": true,
+      "city": "Fort Lee",
+      "state": "New Jersey",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/58410",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Cross%20River%20Bank%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    },
+    "59190": {
+      "cert": 59190,
+      "name": "Varo Bank, National Association",
+      "active": true,
+      "city": "Draper",
+      "state": "Utah",
+      "bankfindUrl": "https://banks.data.fdic.gov/bankfind-suite/bankfind/details/59190",
+      "apiQuery": "https://api.fdic.gov/banks/institutions?filters=NAME%3A%22Varo%20Bank%2C%20National%20Association%22&fields=NAME,CERT,ACTIVE,CITY,STNAME",
+      "verified": true,
+      "lastVerified": "2026-10-22"
+    }
+  },
+  "apps": [
+    {
+      "slug": "chime",
+      "name": "Chime",
+      "isBank": false,
+      "summary": {
+        "text": "Chime is not a bank. Banking services are provided by The Bancorp Bank, N.A. or Stride Bank, N.A., Members FDIC.",
+        "verified": true,
+        "sources": [
+          "chime"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 35444,
+          "role": "Banking services",
+          "verified": true,
+          "sources": [
+            "chime",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 4091,
+          "role": "Banking services",
+          "verified": true,
+          "sources": [
+            "chime",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Chime is not FDIC-insured. Deposit insurance covers the failure of a partner bank; certain conditions must be met for pass-through coverage to apply.",
+        "verified": true,
+        "sources": [
+          "chime"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $250,000 per depositor, per insured bank, per ownership category, through the partner bank.",
+        "verified": true,
+        "sources": [
+          "chime"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Chime’s own policies/legal pages",
+          "verified": false,
+          "sources": [],
+          "reason": "chime.com returned HTTP 403 to automated fetches; facts above come from the home page footer read via WebFetch."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.chime.com/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "sofi",
+      "name": "SoFi",
+      "isBank": true,
+      "summary": {
+        "text": "SoFi Checking and Savings is offered through SoFi Bank, N.A., Member FDIC — SoFi’s own bank, not a partner bank.",
+        "verified": true,
+        "sources": [
+          "sofi"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 26881,
+          "role": "Issuing bank (SoFi’s own bank)",
+          "verified": true,
+          "sources": [
+            "sofi",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "direct",
+        "text": "Deposits are held directly at SoFi Bank, N.A., an FDIC member.",
+        "verified": true,
+        "sources": [
+          "sofi"
+        ]
+      },
+      "coverage": {
+        "text": "SoFi Bank provides no more than $250,000 of FDIC insurance per depositor per ownership category; additional coverage comes from the SoFi Insured Deposit Program.",
+        "verified": true,
+        "sources": [
+          "sofi"
+        ]
+      },
+      "sweep": {
+        "text": "SoFi Insured Deposit Program: deposits may be insured up to $3M through participation in the program (participating banks listed at SoFi.com/banking/fdic/participatingbanks).",
+        "verified": true,
+        "sources": [
+          "sofi"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "SoFi Bank, N.A. is itself the FDIC-insured bank, so there is no separate fintech intermediary for checking and savings deposits.",
+          "verified": true,
+          "sources": [
+            "sofi"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of SoFi Insured Deposit Program participating banks",
+          "verified": false,
+          "sources": [],
+          "reason": "The participating-bank list page was not fetched."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.sofi.com/banking/fdic/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "cash-app",
+      "name": "Cash App",
+      "isBank": false,
+      "summary": {
+        "text": "Cash App is a financial services platform, not an FDIC-insured bank. Eligible balances are held at Wells Fargo Bank, N.A., Sutton Bank and/or The Bancorp Bank, N.A.",
+        "verified": true,
+        "sources": [
+          "cashapp"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 3511,
+          "role": "Pass-through bank",
+          "verified": true,
+          "sources": [
+            "cashapp",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 5962,
+          "role": "Pass-through bank",
+          "verified": true,
+          "sources": [
+            "cashapp",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 35444,
+          "role": "Pass-through bank",
+          "verified": true,
+          "sources": [
+            "cashapp",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Cash App Balance and Savings Balance are eligible for FDIC pass-through insurance only if you have a Cash App Card or a Sponsored Account (or sponsor one). Otherwise they are not deposit products and not eligible. Bitcoin and investing holdings are not covered.",
+        "verified": true,
+        "sources": [
+          "cashapp"
+        ]
+      },
+      "coverage": {
+        "text": "Eligible funds are insured up to $250,000 per customer, aggregated with all other deposits held in the same legal capacity at the same bank.",
+        "verified": true,
+        "sources": [
+          "cashapp"
+        ]
+      },
+      "sweep": {
+        "text": "Eligible funds at each bank may be automatically swept into one or more sweep network banks. Cash App says customers currently cannot opt out of or exclude sweep network banks.",
+        "verified": true,
+        "sources": [
+          "cashapp"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC pass-through insurance only covers the failure of an FDIC-insured bank, not Cash App.",
+          "verified": true,
+          "sources": [
+            "cashapp"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of Cash App sweep network banks",
+          "verified": false,
+          "sources": [],
+          "reason": "Not listed in the fetched Terms of Service."
+        }
+      ],
+      "disclosureUrls": [
+        "https://cash.app/legal/us/en-us/tos"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "venmo",
+      "name": "Venmo",
+      "isBank": false,
+      "summary": {
+        "text": "Venmo is provided by PayPal, Inc., which is not a bank. Eligible funds are placed at FDIC-insured “Program Banks”; the Venmo Debit Card and direct-deposit account number are from The Bancorp Bank, N.A.",
+        "verified": true,
+        "sources": [
+          "venmo"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 35444,
+          "role": "Debit card issuer; direct-deposit account/routing number",
+          "verified": true,
+          "sources": [
+            "venmo",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Eligible balances (e.g. funds received by Direct Deposit) are held at Program Banks and are eligible for FDIC pass-through insurance subject to conditions. Ineligible balances are pooled and invested in liquid investments under state money-transmitter laws and are not FDIC-insured.",
+        "verified": true,
+        "sources": [
+          "venmo"
+        ]
+      },
+      "coverage": {
+        "text": "Subject to FDIC limits; Venmo and PayPal balances held in the same capacity are aggregated at the same Program Bank.",
+        "verified": true,
+        "sources": [
+          "venmo"
+        ]
+      },
+      "sweep": {
+        "text": "Funds may be held at one or more Program Banks chosen by PayPal at its discretion.",
+        "verified": true,
+        "sources": [
+          "venmo"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC insurance protects against the failure of a Program Bank, not the failure of PayPal.",
+          "verified": true,
+          "sources": [
+            "venmo"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of Venmo Program Banks",
+          "verified": false,
+          "sources": [],
+          "reason": "Not listed in the fetched user agreement."
+        }
+      ],
+      "disclosureUrls": [
+        "https://venmo.com/legal/us-user-agreement/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "paypal",
+      "name": "PayPal",
+      "isBank": false,
+      "summary": {
+        "text": "PayPal is not a bank. PayPal Balance funds may be placed at FDIC-insured Program Banks; PayPal Savings is a deposit account at Synchrony Bank; The Bancorp Bank, N.A. issues business account/routing numbers.",
+        "verified": true,
+        "sources": [
+          "paypal"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 27314,
+          "role": "PayPal Savings deposit account",
+          "verified": true,
+          "sources": [
+            "paypal",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 35444,
+          "role": "Business account/routing numbers",
+          "verified": true,
+          "sources": [
+            "paypal",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "PayPal Balance Account funds placed at Program Banks are eligible for pass-through FDIC insurance subject to conditions. Funds without a Balance Account are unsecured claims against PayPal and not eligible.",
+        "verified": true,
+        "sources": [
+          "paypal"
+        ]
+      },
+      "coverage": {
+        "text": "Up to applicable FDIC limits.",
+        "verified": true,
+        "sources": [
+          "paypal"
+        ]
+      },
+      "sweep": {
+        "text": "Funds may be placed in one or more Program Banks.",
+        "verified": true,
+        "sources": [
+          "paypal"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC insurance protects against the failure of the Program Banks, not the failure of PayPal. Balances not eligible for pass-through insurance are unsecured claims against PayPal.",
+          "verified": true,
+          "sources": [
+            "paypal"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of PayPal Balance Program Banks",
+          "verified": false,
+          "sources": [],
+          "reason": "Not listed in the fetched user agreement."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.paypal.com/us/legalhub/paypal/useragreement-full"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "wise",
+      "name": "Wise",
+      "isBank": false,
+      "summary": {
+        "text": "Wise is a Money Service Business, not an FDIC-insured bank. Its card is issued by Lead Bank and Community Federal Savings Bank; for customers who opt in to interest, USD is swept to Program Bank JPMorgan Chase Bank, N.A.",
+        "verified": true,
+        "sources": [
+          "wise"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 8283,
+          "role": "Card issuer (sponsor bank)",
+          "verified": true,
+          "sources": [
+            "wise",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 57129,
+          "role": "Card issuer (sponsor bank)",
+          "verified": true,
+          "sources": [
+            "wise",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 628,
+          "role": "Interest feature Program Bank",
+          "verified": true,
+          "sources": [
+            "wise",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "FDIC pass-through insurance applies to USD balances of eligible customers who opt in to the interest feature, once swept to a Program Bank.",
+        "verified": true,
+        "sources": [
+          "wise"
+        ]
+      },
+      "coverage": {
+        "text": "Coverage amount for Wise balances",
+        "verified": false,
+        "sources": [],
+        "reason": "The fetched Wise page did not state a dollar limit; standard FDIC limit is $250,000 per depositor, per bank, per ownership category (FDIC)."
+      },
+      "sweep": {
+        "text": "USD balances of participants are swept into an FDIC-insured account at one or more Program Banks; current Program Bank is JPMorgan Chase Bank, N.A.",
+        "verified": true,
+        "sources": [
+          "wise"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Whether USD balances held without the interest feature are FDIC-insured",
+          "verified": false,
+          "sources": [],
+          "reason": "Not stated in the fetched page."
+        },
+        {
+          "text": "Program Agreement Appendix 1 (full Program Bank list)",
+          "verified": false,
+          "sources": [],
+          "reason": "Not fetched."
+        }
+      ],
+      "disclosureUrls": [
+        "https://wise.com/us/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "robinhood",
+      "name": "Robinhood",
+      "isBank": false,
+      "summary": {
+        "text": "Robinhood Money, LLC is a financial technology company, not a bank. Robinhood Banking services are provided by Coastal Community Bank; the Robinhood Cash Card is issued by Sutton Bank.",
+        "verified": true,
+        "sources": [
+          "robinhood-banking"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 34403,
+          "role": "Robinhood Banking",
+          "verified": true,
+          "sources": [
+            "robinhood-banking",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 5962,
+          "role": "Robinhood Cash Card issuer",
+          "verified": true,
+          "sources": [
+            "robinhood-home",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "FDIC insurance is available through pass-through insurance at Coastal Community Bank if conditions are met. Cash Card funds at Sutton Bank are eligible for FDIC insurance; availability depends on Robinhood keeping records acceptable to the FDIC.",
+        "verified": true,
+        "sources": [
+          "robinhood-banking",
+          "robinhood-home"
+        ]
+      },
+      "coverage": {
+        "text": "Cash Card funds at Sutton Bank: up to $250,000 (aggregated with all your deposits at Sutton Bank).",
+        "verified": true,
+        "sources": [
+          "robinhood-home"
+        ]
+      },
+      "sweep": {
+        "text": "Robinhood Banking Sweep Program funds are eligible for up to $50 million in FDIC insurance through participating program banks, subject to the $250,000 per depositor, per bank, per ownership category limit.",
+        "verified": true,
+        "sources": [
+          "robinhood-banking"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "Robinhood Money, LLC is not an FDIC-insured bank; FDIC coverage depends on Robinhood maintaining records acceptable to the FDIC if the bank fails.",
+          "verified": true,
+          "sources": [
+            "robinhood-banking",
+            "robinhood-home"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of Robinhood Sweep Program banks",
+          "verified": false,
+          "sources": [],
+          "reason": "Not listed on fetched pages."
+        },
+        {
+          "text": "Robinhood brokerage cash sweep",
+          "verified": false,
+          "sources": [],
+          "reason": "Not researched; brokerage sweep terms were not fetched."
+        }
+      ],
+      "disclosureUrls": [
+        "https://robinhood.com/us/en/banking/",
+        "https://robinhood.com/us/en/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "wealthfront",
+      "name": "Wealthfront",
+      "isBank": false,
+      "summary": {
+        "text": "Wealthfront sweeps Cash Account balances to FDIC-insured Program Banks. The Wealthfront Visa Debit Card is issued by Green Dot Bank.",
+        "verified": true,
+        "sources": [
+          "wealthfront"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 22653,
+          "role": "Debit card issuer; checking features",
+          "verified": true,
+          "sources": [
+            "wealthfront",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "FDIC pass-through insurance applies only once funds arrive at Program Banks. While at or in transit to/from Wealthfront Brokerage, cash is not FDIC-eligible but is SIPC-eligible (up to $250,000 for cash).",
+        "verified": true,
+        "sources": [
+          "wealthfront"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $8 million ($16 million for joint accounts) of FDIC pass-through coverage across multiple Program Banks; $250,000 per bank per ownership capacity, including deposits you hold there directly.",
+        "verified": true,
+        "sources": [
+          "wealthfront"
+        ]
+      },
+      "sweep": {
+        "text": "Multi-bank cash sweep program; balances are not allocated equally among Program Banks.",
+        "verified": true,
+        "sources": [
+          "wealthfront"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC pass-through insurance protects against the failure of Program Banks, not Wealthfront.",
+          "verified": true,
+          "sources": [
+            "wealthfront"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Names of Wealthfront Program Banks",
+          "verified": false,
+          "sources": [],
+          "reason": "The Program Bank list linked from the disclosures page was not fetched."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.wealthfront.com/legal/disclosure"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "ally",
+      "name": "Ally",
+      "isBank": true,
+      "summary": {
+        "text": "Ally Bank is itself an FDIC-insured bank (Member FDIC), the direct banking subsidiary of Ally Financial.",
+        "verified": true,
+        "sources": [
+          "ally"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 57803,
+          "role": "The bank itself",
+          "verified": true,
+          "sources": [
+            "ally",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "direct",
+        "text": "Deposits are held directly at Ally Bank, Member FDIC. Ally Invest securities products are not FDIC-insured.",
+        "verified": true,
+        "sources": [
+          "ally"
+        ]
+      },
+      "coverage": {
+        "text": "$250,000 per depositor, per insured bank, for each ownership category.",
+        "verified": true,
+        "sources": [
+          "ally"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "Ally Bank is the FDIC-insured bank; there is no separate fintech intermediary for Ally Bank deposits.",
+          "verified": true,
+          "sources": [
+            "ally"
+          ]
+        }
+      ],
+      "unverified": [],
+      "disclosureUrls": [
+        "https://www.ally.com/bank/fdic/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "current",
+      "name": "Current",
+      "isBank": false,
+      "summary": {
+        "text": "Current is a financial technology company, not an FDIC-insured bank. Banking services are provided by Choice Financial Group and/or Cross River Bank, Members FDIC.",
+        "verified": true,
+        "sources": [
+          "current"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 9423,
+          "role": "Banking services; card issuer",
+          "verified": true,
+          "sources": [
+            "current",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 58410,
+          "role": "Banking services; card issuer",
+          "verified": true,
+          "sources": [
+            "current",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Certain conditions must be satisfied for pass-through deposit insurance coverage to apply. Crypto held via Zero Hash is not FDIC-insured.",
+        "verified": true,
+        "sources": [
+          "current"
+        ]
+      },
+      "coverage": {
+        "text": "FDIC insurance up to $250,000 only covers the failure of an FDIC-insured bank.",
+        "verified": true,
+        "sources": [
+          "current"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "Current states FDIC insurance only covers the failure of an FDIC-insured bank.",
+          "verified": true,
+          "sources": [
+            "current"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [],
+      "disclosureUrls": [
+        "https://current.com/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "varo",
+      "name": "Varo",
+      "isBank": true,
+      "summary": {
+        "text": "Varo’s website footer identifies Varo Bank, N.A., Member FDIC. FDIC BankFind lists Varo Bank, National Association as an active institution, so Varo is a bank itself rather than a partner-bank fintech.",
+        "verified": true,
+        "sources": [
+          "varo"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 59190,
+          "role": "The bank itself",
+          "verified": true,
+          "sources": [
+            "varo",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "direct",
+        "text": "Varo Bank, N.A. is a Member FDIC bank.",
+        "verified": true,
+        "sources": [
+          "varo"
+        ]
+      },
+      "coverage": {
+        "text": "Varo-specific coverage statement",
+        "verified": false,
+        "sources": [],
+        "reason": "The fetched page did not state a coverage amount; the standard FDIC limit is $250,000 per depositor, per bank, per ownership category (FDIC)."
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "Varo Bank, N.A. is itself the FDIC-insured bank.",
+          "verified": true,
+          "sources": [
+            "varo"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Varo legal/disclosures page",
+          "verified": false,
+          "sources": [],
+          "reason": "https://www.varomoney.com/legal/ returned 404; only the home page footer was used."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.varomoney.com/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "dave",
+      "name": "Dave",
+      "isBank": false,
+      "summary": {
+        "text": "Dave is not a bank. Banking services are provided by Coastal Community Bank, Member FDIC.",
+        "verified": true,
+        "sources": [
+          "dave"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 34403,
+          "role": "Banking services",
+          "verified": true,
+          "sources": [
+            "dave",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Dave accounts are FDIC-insured through Coastal Community Bank “or another partner bank”; conditions apply.",
+        "verified": true,
+        "sources": [
+          "dave"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $250,000.",
+        "verified": true,
+        "sources": [
+          "dave"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Identity of “another partner bank”",
+          "verified": false,
+          "sources": [],
+          "reason": "Dave’s page references another partner bank without naming it."
+        }
+      ],
+      "disclosureUrls": [
+        "https://dave.com/legal"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "revolut-us",
+      "name": "Revolut US",
+      "isBank": false,
+      "summary": {
+        "text": "Revolut Prepaid Card Account funds are held at or transferred to Lead Bank, Member FDIC; Savings Account services are provided by Cross River Bank, Member FDIC.",
+        "verified": true,
+        "sources": [
+          "revolut"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 8283,
+          "role": "Prepaid card account",
+          "verified": true,
+          "sources": [
+            "revolut",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 58410,
+          "role": "Savings account",
+          "verified": true,
+          "sources": [
+            "revolut",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Insured by the FDIC in the event Lead Bank fails if specific deposit insurance requirements are met.",
+        "verified": true,
+        "sources": [
+          "revolut"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $250,000 (applicable FDIC limits).",
+        "verified": true,
+        "sources": [
+          "revolut"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Revolut’s own US legal pages",
+          "verified": false,
+          "sources": [],
+          "reason": "revolut.com returned HTTP 403 to every fetch method; facts come from Revolut’s Google Play listing text."
+        }
+      ],
+      "disclosureUrls": [
+        "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
+        "https://www.revolut.com/en-US/legal/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "betterment",
+      "name": "Betterment",
+      "isBank": false,
+      "summary": {
+        "text": "Betterment is not a bank. Cash Reserve balances are swept to FDIC-insured Program Banks; The Bancorp Bank and Wells Fargo Bank, N.A. hold Transfer Accounts.",
+        "verified": true,
+        "sources": [
+          "betterment"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 35444,
+          "role": "Program Bank with Transfer Account",
+          "verified": true,
+          "sources": [
+            "betterment",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 3511,
+          "role": "Program Bank with Transfer Account",
+          "verified": true,
+          "sources": [
+            "betterment",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Cash becomes eligible for FDIC insurance once transferred to Program Banks. Funds in transit are generally not FDIC-insured but remain SIPC-covered.",
+        "verified": true,
+        "sources": [
+          "betterment"
+        ]
+      },
+      "coverage": {
+        "text": "$250,000 per depositor per bank, up to $4 million aggregate ($8 million joint) across Program Banks. Excluding banks may reduce coverage.",
+        "verified": true,
+        "sources": [
+          "betterment"
+        ]
+      },
+      "sweep": {
+        "text": "Cash Sweep Program across 26 listed Program Banks (e.g. Barclays Bank Delaware, Cross River Bank, Morgan Stanley Bank, N.A., Truist Bank, Wells Fargo Bank, N.A.).",
+        "verified": true,
+        "sources": [
+          "betterment"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "Deposit Accounts are obligations of the Program Banks, not of Betterment or Betterment Securities.",
+          "verified": true,
+          "sources": [
+            "betterment"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "BankFind CERTs for the other 24 Program Banks",
+          "verified": false,
+          "sources": [],
+          "reason": "Only the two Transfer Account banks were looked up."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.betterment.com/legal/cash-reserve-program-banks"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "acorns",
+      "name": "Acorns",
+      "isBank": false,
+      "summary": {
+        "text": "Acorns is not a bank. Acorns Checking banking services and debit cards are provided by Lincoln Savings Bank or nbkc bank, Members FDIC.",
+        "verified": true,
+        "sources": [
+          "acorns"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 14207,
+          "role": "Banking services; card issuer",
+          "verified": true,
+          "sources": [
+            "acorns",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 35014,
+          "role": "Banking services; card issuer",
+          "verified": true,
+          "sources": [
+            "acorns",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Balances are insured through Lincoln Savings Bank or nbkc bank; see Acorns account documentation for pass-through terms. Investment products are not FDIC-insured.",
+        "verified": true,
+        "sources": [
+          "acorns"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $250,000 per depositor; jointly owned funds insured separately up to $250,000 per joint owner.",
+        "verified": true,
+        "sources": [
+          "acorns"
+        ]
+      },
+      "sweep": {
+        "text": "The banks use a deposit network service (bank list at cambr.com/bank-list); balances moved to network banks are FDIC-eligible once they arrive.",
+        "verified": true,
+        "sources": [
+          "acorns"
+        ]
+      },
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Acorns legal page",
+          "verified": false,
+          "sources": [],
+          "reason": "https://www.acorns.com/legal/ returned 404; home page disclosures were used."
+        }
+      ],
+      "disclosureUrls": [
+        "https://www.acorns.com/"
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "albert",
+      "name": "Albert",
+      "isBank": false,
+      "summary": {
+        "text": "Albert is not a bank. Banking services are provided by Stride Bank, N.A.; Albert Savings funds are held at Wells Fargo, N.A.",
+        "verified": true,
+        "sources": [
+          "albert"
+        ]
+      },
+      "partnerBanks": [
+        {
+          "cert": 4091,
+          "role": "Albert Cash (pooled account); debit card issuer",
+          "verified": true,
+          "sources": [
+            "albert",
+            "bankfind-api"
+          ]
+        },
+        {
+          "cert": 3511,
+          "role": "Albert Savings",
+          "verified": true,
+          "sources": [
+            "albert",
+            "bankfind-api"
+          ]
+        }
+      ],
+      "insurance": {
+        "type": "pass-through",
+        "text": "Cash and Savings funds are eligible for FDIC insurance on a pass-through basis should the bank holding the funds fail, subject to conditions. Does not apply to investments or advances.",
+        "verified": true,
+        "sources": [
+          "albert"
+        ]
+      },
+      "coverage": {
+        "text": "Up to $250,000.",
+        "verified": true,
+        "sources": [
+          "albert"
+        ]
+      },
+      "sweep": null,
+      "ifFintechFails": [
+        {
+          "text": "FDIC deposit insurance does not cover the default or bankruptcy of a non-FDIC-insured company.",
+          "verified": true,
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "text": "In the 2024 Synapse bankruptcy, the CFPB says partner banks found a $60–90 million shortfall versus Synapse’s records; consumers lost access to funds for weeks or months and many have not received their full balance.",
+          "verified": true,
+          "sources": [
+            "cfpb-synapse"
+          ]
+        }
+      ],
+      "unverified": [
+        {
+          "text": "Albert legal page",
+          "verified": false,
+          "sources": [],
+          "reason": "https://albert.com/legal/ returned 404; home page disclosures were used."
+        }
+      ],
+      "disclosureUrls": [
+        "https://albert.com/"
+      ],
+      "lastVerified": "2026-10-22"
+    }
+  ]
+}

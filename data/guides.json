@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026.10.22-1",
+  "sources": {
+    "fdic-udi": {
+      "title": "Understanding Deposit Insurance (last updated April 1, 2024)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "fdic-products": {
+      "title": "Financial Products That Are Insured (last updated April 1, 2024)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/financial-products-insured",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "fdic-brochure": {
+      "title": "Your Insured Deposits (last updated May 14, 2024)",
+      "url": "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+      "publisher": "FDIC",
+      "fetched": "2026-10-22"
+    },
+    "ncua-sic": {
+      "title": "Share Insurance Coverage",
+      "url": "https://ncua.gov/consumers/share-insurance-coverage",
+      "publisher": "NCUA",
+      "fetched": "2026-10-22"
+    },
+    "sec-mmf": {
+      "title": "Money Market Funds",
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-5",
+      "publisher": "SEC Investor.gov",
+      "fetched": "2026-10-22"
+    },
+    "cfpb-synapse": {
+      "title": "Synapse Financial Technologies, Inc. (enforcement action)",
+      "url": "https://www.consumerfinance.gov/enforcement/actions/synapse-financial-technologies-inc/",
+      "publisher": "CFPB",
+      "fetched": "2026-10-22"
+    }
+  },
+  "guides": [
+    {
+      "slug": "what-does-fdic-insured-mean",
+      "title": "What does FDIC insured mean?",
+      "description": "What FDIC deposit insurance covers, what it does not, and how it applies to fintech apps.",
+      "sections": [
+        {
+          "heading": "Definition",
+          "paragraphs": [
+            {
+              "text": "FDIC deposit insurance protects money in deposit accounts at FDIC-insured banks in the event of a bank failure.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "Since the FDIC was founded in 1933, no depositor has lost a penny of FDIC-insured funds.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "The Deposit Insurance Fund is backed by the full faith and credit of the United States government.",
+              "sources": [
+                "fdic-udi"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Covered and not covered",
+          "paragraphs": [
+            {
+              "text": "Covered: checking, NOW, savings and money market deposit accounts; time deposits such as CDs; cashier’s checks, money orders and other official items issued by a bank.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "Not covered: stocks, bonds, mutual funds, annuities, life insurance, safe deposit boxes or their contents, U.S. Treasury bills, bonds or notes, municipal securities, and crypto assets — even when bought at an insured bank.",
+              "sources": [
+                "fdic-udi"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fintech apps and pass-through insurance",
+          "paragraphs": [
+            {
+              "text": "FDIC deposit insurance does not cover the default or bankruptcy of any non-FDIC-insured institution.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "“Pass-through” insurance covers depositors whose funds are held at an insured bank through a third party, including companies that offer financial products through partnerships with FDIC-insured banks.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            },
+            {
+              "text": "It applies only if the custodial relationship is disclosed in the bank’s records, each owner’s identity and interest can be determined from the bank’s or third party’s records, and the underlying owners actually own the funds. The FDIC decides this at the time the bank fails.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            },
+            {
+              "text": "After Synapse, a fintech middleware company, filed for bankruptcy on April 22, 2024, partner banks found a shortfall of $60–90 million against Synapse’s records. Consumers lost access to funds for weeks or months and many have not received their full balance (CFPB).",
+              "sources": [
+                "cfpb-synapse"
+              ]
+            }
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is a fintech app FDIC insured?",
+          "answer": "The app company itself is generally not a bank. FDIC insurance covers deposits at FDIC-insured banks and does not cover the default or bankruptcy of a non-FDIC-insured company. Funds held at a partner bank may qualify for pass-through coverage if FDIC recordkeeping and ownership requirements are met.",
+          "sources": [
+            "fdic-udi",
+            "fdic-brochure"
+          ]
+        },
+        {
+          "question": "Are crypto assets FDIC insured?",
+          "answer": "No. The FDIC lists crypto assets as not covered.",
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "question": "How do I check whether a bank is FDIC insured?",
+          "answer": "The FDIC directs consumers to its BankFind Suite search tool.",
+          "sources": [
+            "fdic-udi"
+          ]
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "fdic-insurance-limit",
+      "title": "FDIC insurance limit",
+      "description": "The $250,000 FDIC limit explained: per depositor, per bank, per ownership category.",
+      "sections": [
+        {
+          "heading": "The standard limit",
+          "paragraphs": [
+            {
+              "text": "FDIC deposit insurance covers $250,000 per depositor, per FDIC-insured bank, for each account ownership category.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "Ownership categories include single accounts, joint accounts, certain retirement accounts (such as IRAs), trust accounts, employee benefit plan accounts, corporation/partnership/unincorporated association accounts, and government accounts.",
+              "sources": [
+                "fdic-udi"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "How deposits are added together",
+          "paragraphs": [
+            {
+              "text": "All deposits in the same ownership category at the same bank are added together. Two single accounts (e.g. checking and savings) at one bank are insured up to $250,000 combined; an IRA at the same bank is insured separately up to $250,000.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "A single account and a joint account at the same bank are insured separately. Single accounts at two different insured banks are each insured up to $250,000.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "Pass-through deposits (for example via a fintech app or a broker) are added to any other deposits you hold in the same category at the same bank.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Trust accounts",
+          "paragraphs": [
+            {
+              "text": "As of April 1, 2024, the maximum coverage for a trust owner with five or more beneficiaries is $1,250,000 per owner per bank.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Estimate your coverage",
+          "paragraphs": [
+            {
+              "text": "The FDIC’s Electronic Deposit Insurance Estimator (EDIE) calculates how much of your funds are covered.",
+              "sources": [
+                "fdic-udi"
+              ]
+            }
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the FDIC insurance limit?",
+          "answer": "$250,000 per depositor, per FDIC-insured bank, for each account ownership category.",
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "question": "Can I be insured for more than $250,000 at one bank?",
+          "answer": "Yes, by holding deposits in different ownership categories, such as single, joint and IRA accounts.",
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "question": "If my fintech app and my own account use the same bank, are they insured separately?",
+          "answer": "No. Pass-through deposits are added to your other deposits in the same ownership category at the same bank.",
+          "sources": [
+            "fdic-brochure"
+          ]
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "are-cds-fdic-insured",
+      "title": "Are CDs FDIC insured?",
+      "description": "Certificates of deposit at FDIC-insured banks, including brokered CDs, and how limits apply.",
+      "sections": [
+        {
+          "heading": "Short answer",
+          "paragraphs": [
+            {
+              "text": "Yes. Time deposits such as certificates of deposit (CDs) at FDIC-insured banks are covered.",
+              "sources": [
+                "fdic-udi",
+                "fdic-products"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Limits",
+          "paragraphs": [
+            {
+              "text": "CDs count toward the $250,000 per depositor, per bank, per ownership category limit together with your other deposits in the same category at that bank.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "The April 1, 2024 trust coverage rule ($1,250,000 maximum per trust owner with five or more beneficiaries) applies to CDs regardless of purchase or maturity date.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Brokered CDs",
+          "paragraphs": [
+            {
+              "text": "Brokers who offer brokered CDs are listed by the FDIC as third parties in pass-through arrangements. If pass-through requirements are met, the CD is insured as if deposited in the owner’s name.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            },
+            {
+              "text": "Example from the FDIC: a broker buys a CD for a single owner at a bank where that person also has a checking account; the two balances are added and insured up to $250,000 in the Single Account category.",
+              "sources": [
+                "fdic-brochure"
+              ]
+            }
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Are CDs FDIC insured?",
+          "answer": "Yes, CDs at FDIC-insured banks are covered up to $250,000 per depositor, per bank, per ownership category.",
+          "sources": [
+            "fdic-udi"
+          ]
+        },
+        {
+          "question": "Are brokered CDs FDIC insured?",
+          "answer": "They can be, on a pass-through basis, if FDIC recordkeeping and ownership requirements are met. They are aggregated with your other deposits at the same bank.",
+          "sources": [
+            "fdic-brochure"
+          ]
+        },
+        {
+          "question": "Are credit union share certificates insured?",
+          "answer": "Federally insured credit unions’ share certificates are covered by the NCUA Share Insurance Fund, not the FDIC.",
+          "sources": [
+            "ncua-sic"
+          ]
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "are-money-market-accounts-fdic-insured",
+      "title": "Are money market accounts FDIC insured?",
+      "description": "Money market deposit accounts vs. money market funds: one is FDIC insured, one is not.",
+      "sections": [
+        {
+          "heading": "Money market deposit accounts (MMDAs)",
+          "paragraphs": [
+            {
+              "text": "Money market deposit accounts at FDIC-insured banks are covered by FDIC deposit insurance.",
+              "sources": [
+                "fdic-udi",
+                "fdic-products"
+              ]
+            },
+            {
+              "text": "They are added to your other single-category deposits (checking, savings) at the same bank for the $250,000 limit.",
+              "sources": [
+                "fdic-products"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Money market funds",
+          "paragraphs": [
+            {
+              "text": "Money market funds are a type of mutual fund that invests in liquid, short-term debt securities, cash and cash equivalents.",
+              "sources": [
+                "sec-mmf"
+              ]
+            },
+            {
+              "text": "Money invested in a money market fund is not guaranteed by the FDIC; you may lose some or all of the money you invested.",
+              "sources": [
+                "sec-mmf"
+              ]
+            },
+            {
+              "text": "The FDIC lists mutual funds as not covered, even when purchased at an insured bank.",
+              "sources": [
+                "fdic-udi"
+              ]
+            },
+            {
+              "text": "Most retail and government money market funds seek a stable $1.00 net asset value per share; a fund that deviates by more than half a cent must re-price (“breaking the buck”).",
+              "sources": [
+                "sec-mmf"
+              ]
+            }
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is a money market account FDIC insured?",
+          "answer": "A money market deposit account at an FDIC-insured bank is. A money market fund is not.",
+          "sources": [
+            "fdic-udi",
+            "sec-mmf"
+          ]
+        },
+        {
+          "question": "Is a money market fund FDIC insured?",
+          "answer": "No. Money market funds are mutual funds and are not guaranteed by the FDIC.",
+          "sources": [
+            "sec-mmf",
+            "fdic-udi"
+          ]
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    },
+    {
+      "slug": "are-credit-unions-fdic-insured",
+      "title": "Are credit unions FDIC insured?",
+      "description": "Credit unions are insured by the NCUA Share Insurance Fund, not the FDIC.",
+      "sections": [
+        {
+          "heading": "Short answer",
+          "paragraphs": [
+            {
+              "text": "No — credit unions are insured by the National Credit Union Share Insurance Fund, administered by the NCUA. NCUA describes it as similar to FDIC deposit insurance.",
+              "sources": [
+                "ncua-sic"
+              ]
+            },
+            {
+              "text": "The fund is backed by the full faith and credit of the United States and provides up to $250,000 of federal share insurance in all federal credit unions and the overwhelming majority of state-chartered credit unions.",
+              "sources": [
+                "ncua-sic"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Coverage",
+          "paragraphs": [
+            {
+              "text": "Individual accounts are insured up to $250,000; a member’s interest in all joint accounts combined is insured up to $250,000; IRA and KEOGH retirement accounts are separately insured up to $250,000.",
+              "sources": [
+                "ncua-sic"
+              ]
+            },
+            {
+              "text": "Covered share deposits include share draft accounts, share savings accounts and time deposits such as share certificates.",
+              "sources": [
+                "ncua-sic"
+              ]
+            },
+            {
+              "text": "Coverage is automatic when you join a federally insured credit union. NCUA states no one has lost a penny of insured deposits at a federally insured credit union.",
+              "sources": [
+                "ncua-sic"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Privately insured credit unions",
+          "paragraphs": [
+            {
+              "text": "Some state-chartered credit unions are insured by private insurers, whose coverage is not backed by the full faith and credit of the United States. NCUA recommends confirming federal insurance with its Credit Union Locator.",
+              "sources": [
+                "ncua-sic"
+              ]
+            }
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Are credit unions FDIC insured?",
+          "answer": "No. Federally insured credit unions are covered by the NCUA Share Insurance Fund, up to $250,000.",
+          "sources": [
+            "ncua-sic"
+          ]
+        },
+        {
+          "question": "Are all credit unions federally insured?",
+          "answer": "No. Several state-chartered credit unions use private insurers not backed by the U.S. government.",
+          "sources": [
+            "ncua-sic"
+          ]
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    }
+  ]
+}
