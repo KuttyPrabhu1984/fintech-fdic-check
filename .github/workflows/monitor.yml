@@ -1,0 +1,61 @@
+name: Monitor bank status and disclosures
+
+on:
+  schedule:
+    - cron: '17 9 * * 1' # Mondays 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run monitor
+        id: monitor
+        run: node scripts/monitor.mjs
+
+      - name: Commit snapshot changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add monitor/
+          if git diff --cached --quiet; then
+            echo "No snapshot changes."
+          else
+            git commit -m "monitor: update snapshots $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open issue on mismatch or disclosure change
+        if: steps.monitor.outputs.alert == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "The weekly monitor detected changes that need manual review before updating \`data/apps.json\`."
+            echo
+            echo "### Bank status / name mismatches (FDIC BankFind)"
+            node -e 'const r=require("./monitor/report.json");const m=r.bankMismatches;console.log(m.length?m.map(b=>`- CERT ${b.cert}: expected "${b.expectedName}" (active=${b.expectedActive}), got "${b.actualName??"-"}" (active=${b.actualActive??"-"}, status=${b.status})`).join("\n"):"None")'
+            echo
+            echo "### Disclosure pages whose insurance-related text changed"
+            node -e 'const r=require("./monitor/report.json");const c=r.disclosureChanges;console.log(c.length?c.map(d=>`- ${d.app}: ${d.url} (snapshot \`monitor/snapshots/${d.key}.txt\`)`).join("\n"):"None")'
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > issue-body.md
+          gh issue create \
+            --title "Monitor alert: $(date -u +%Y-%m-%d)" \
+            --body-file issue-body.md

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:46:33.519Z",
+  "generatedAt": "2026-10-21T18:48:57.357Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -8,7 +8,7 @@
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
     "disclosureChanges": 0,
-    "disclosureFetchErrors": 1
+    "disclosureFetchErrors": 2
   },
   "alert": false,
   "bankMismatches": [],
@@ -397,11 +397,10 @@
       "app": "revolut-us",
       "url": "https://www.revolut.com/en-US/legal/",
       "key": "revolut-us__www_revolut_com_en_US_legal",
-      "previousHash": null,
-      "status": "ok",
-      "sha256": "07acd550d1f64989c367f6889f8ebcf00df0a0412bf08c5f1bdc83e9f2c40c9d",
-      "changed": false,
-      "firstSnapshot": true
+      "previousHash": "07acd550d1f64989c367f6889f8ebcf00df0a0412bf08c5f1bdc83e9f2c40c9d",
+      "status": "fetch_error",
+      "error": "HTTP 403",
+      "changed": false
     },
     {
       "app": "betterment",
