@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T18:48:57.357Z",
+  "generatedAt": "2026-10-21T18:54:25.414Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -7,12 +7,23 @@
     "bankMismatches": 0,
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
-    "disclosureChanges": 0,
+    "disclosureChanges": 1,
     "disclosureFetchErrors": 2
   },
-  "alert": false,
+  "alert": true,
   "bankMismatches": [],
-  "disclosureChanges": [],
+  "disclosureChanges": [
+    {
+      "app": "revolut-us",
+      "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
+      "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
+      "previousHash": "2d6a4aa33ba483dd75dabeb1892b1e591dc2bf24e0fa826bcd8d0dd7142cd5d9",
+      "status": "ok",
+      "sha256": "9dc780b69e8be6ac3cc08862cdab9744f47af5325f5ac9ceb08d3f50c18d983f",
+      "changed": true,
+      "firstSnapshot": false
+    }
+  ],
   "banks": [
     {
       "cert": 628,
@@ -389,8 +400,8 @@
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
       "previousHash": "2d6a4aa33ba483dd75dabeb1892b1e591dc2bf24e0fa826bcd8d0dd7142cd5d9",
       "status": "ok",
-      "sha256": "2d6a4aa33ba483dd75dabeb1892b1e591dc2bf24e0fa826bcd8d0dd7142cd5d9",
-      "changed": false,
+      "sha256": "9dc780b69e8be6ac3cc08862cdab9744f47af5325f5ac9ceb08d3f50c18d983f",
+      "changed": true,
       "firstSnapshot": false
     },
     {
