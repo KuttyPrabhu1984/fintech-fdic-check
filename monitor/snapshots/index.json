@@ -4,7 +4,7 @@
     "url": "https://www.sofi.com/banking/fdic/",
     "finalUrl": "https://www.sofi.com/banking/fdic/",
     "sha256": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
-    "checked": "2026-10-21T18:54:19.444Z",
+    "checked": "2026-10-26T16:05:55.265Z",
     "chars": 3578
   },
   "cash-app__cash_app_legal_us_en_us_tos": {
@@ -12,7 +12,7 @@
     "url": "https://cash.app/legal/us/en-us/tos",
     "finalUrl": "https://cash.app/us/en/legal/tos",
     "sha256": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
-    "checked": "2026-10-21T18:54:20.187Z",
+    "checked": "2026-10-26T16:05:55.793Z",
     "chars": 18725
   },
   "venmo__venmo_com_legal_us_user_agreement": {
@@ -20,7 +20,7 @@
     "url": "https://venmo.com/legal/us-user-agreement/",
     "finalUrl": "https://venmo.com/legal/us-user-agreement",
     "sha256": "e0ed62776b193cf1018374c409258916b2a6d6f62dd2d181816615292fe7fa51",
-    "checked": "2026-10-21T18:54:20.430Z",
+    "checked": "2026-10-26T16:05:55.989Z",
     "chars": 19050
   },
   "paypal__www_paypal_com_us_legalhub_paypal_useragreement_full": {
@@ -28,7 +28,7 @@
     "url": "https://www.paypal.com/us/legalhub/paypal/useragreement-full",
     "finalUrl": "https://www.paypal.com/us/legalhub/paypal/useragreement-full",
     "sha256": "261a14a5c1d26a34116e98dfcd3f0b4777b1b6a51f1347f5b380b17711fd9897",
-    "checked": "2026-10-21T18:54:21.511Z",
+    "checked": "2026-10-26T16:05:56.801Z",
     "chars": 12388
   },
   "wise__wise_com_us": {
@@ -36,7 +36,7 @@
     "url": "https://wise.com/us/",
     "finalUrl": "https://wise.com/us/",
     "sha256": "88bd8bc543f91f2ee671b6e0801fece74e6ef6994e085dd773dfbb02fe628cdb",
-    "checked": "2026-10-21T18:54:22.428Z",
+    "checked": "2026-10-26T16:05:57.907Z",
     "chars": 976
   },
   "robinhood__robinhood_com_us_en_banking": {
@@ -44,7 +44,7 @@
     "url": "https://robinhood.com/us/en/banking/",
     "finalUrl": "https://robinhood.com/us/en/banking/",
     "sha256": "a8c20bbdee59fc3694bb0115d0027b25e809a64562379ec17ef8ef8f9c8a60c0",
-    "checked": "2026-10-21T18:54:22.537Z",
+    "checked": "2026-10-26T16:05:58.081Z",
     "chars": 1045
   },
   "robinhood__robinhood_com_us_en": {
@@ -52,7 +52,7 @@
     "url": "https://robinhood.com/us/en/",
     "finalUrl": "https://robinhood.com/us/en/",
     "sha256": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
-    "checked": "2026-10-21T18:54:22.553Z",
+    "checked": "2026-10-26T16:05:58.236Z",
     "chars": 1207
   },
   "wealthfront__www_wealthfront_com_legal_disclosure": {
@@ -60,7 +60,7 @@
     "url": "https://www.wealthfront.com/legal/disclosure",
     "finalUrl": "https://www.wealthfront.com/legal/disclosure",
     "sha256": "a2552dc67dc153f7aa7b93ea8ea89b6b1cd3c77b7718a1853dd3270a77c5410d",
-    "checked": "2026-10-21T18:54:22.803Z",
+    "checked": "2026-10-26T16:05:58.470Z",
     "chars": 5953
   },
   "ally__www_ally_com_bank_fdic": {
@@ -68,7 +68,7 @@
     "url": "https://www.ally.com/bank/fdic/",
     "finalUrl": "https://www.ally.com/bank/fdic/",
     "sha256": "2882df3123d83fa0ebf7b9e292b8c5bc0bf823836da2e67b0b0a47ce6ce0d75f",
-    "checked": "2026-10-21T18:54:23.280Z",
+    "checked": "2026-10-26T16:05:59.381Z",
     "chars": 4141
   },
   "current__current_com": {
@@ -76,7 +76,7 @@
     "url": "https://current.com/",
     "finalUrl": "https://current.com/",
     "sha256": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
-    "checked": "2026-10-21T18:54:23.468Z",
+    "checked": "2026-10-26T16:05:59.669Z",
     "chars": 2360
   },
   "varo__www_varomoney_com": {
@@ -84,7 +84,7 @@
     "url": "https://www.varomoney.com/",
     "finalUrl": "https://www.varomoney.com/",
     "sha256": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
-    "checked": "2026-10-21T18:54:23.624Z",
+    "checked": "2026-10-26T16:05:59.841Z",
     "chars": 1867
   },
   "dave__dave_com_legal": {
@@ -92,23 +92,23 @@
     "url": "https://dave.com/legal",
     "finalUrl": "https://dave.com/legal",
     "sha256": "2a6cc8b8af1339d33b9acfed1f28e01b9da4546fd6254abae8a1ac0af711ab6b",
-    "checked": "2026-10-21T18:54:23.719Z",
+    "checked": "2026-10-26T16:06:00.014Z",
     "chars": 1996
   },
   "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US": {
     "app": "revolut-us",
     "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
     "finalUrl": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
-    "sha256": "9dc780b69e8be6ac3cc08862cdab9744f47af5325f5ac9ceb08d3f50c18d983f",
-    "checked": "2026-10-21T18:54:23.873Z",
-    "chars": 2408
+    "sha256": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
+    "checked": "2026-10-26T16:06:00.214Z",
+    "chars": 2047
   },
   "betterment__www_betterment_com_legal_cash_reserve_program_banks": {
     "app": "betterment",
     "url": "https://www.betterment.com/legal/cash-reserve-program-banks",
     "finalUrl": "https://www.betterment.com/cash-portfolio",
     "sha256": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
-    "checked": "2026-10-21T18:54:25.092Z",
+    "checked": "2026-10-26T16:06:02.085Z",
     "chars": 8487
   },
   "acorns__www_acorns_com": {
@@ -116,7 +116,7 @@
     "url": "https://www.acorns.com/",
     "finalUrl": "https://www.acorns.com/",
     "sha256": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
-    "checked": "2026-10-21T18:54:25.170Z",
+    "checked": "2026-10-26T16:06:02.200Z",
     "chars": 3330
   },
   "albert__albert_com": {
@@ -124,7 +124,7 @@
     "url": "https://albert.com/",
     "finalUrl": "https://albert.com/",
     "sha256": "abf8d8d295ef26268d57f58a03923cff0b25b8f76cbc2985820bc937eacfe805",
-    "checked": "2026-10-21T18:54:25.414Z",
+    "checked": "2026-10-26T16:06:02.677Z",
     "chars": 1626
   },
   "revolut-us__www_revolut_com_en_US_legal": {
