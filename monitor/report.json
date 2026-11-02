@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T16:06:02.677Z",
+  "generatedAt": "2026-11-02T19:28:17.484Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -7,19 +7,49 @@
     "bankMismatches": 0,
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
-    "disclosureChanges": 1,
+    "disclosureChanges": 4,
     "disclosureFetchErrors": 2
   },
   "alert": true,
   "bankMismatches": [],
   "disclosureChanges": [
     {
+      "app": "robinhood",
+      "url": "https://robinhood.com/us/en/",
+      "key": "robinhood__robinhood_com_us_en",
+      "previousHash": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
+      "status": "ok",
+      "sha256": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "9dc780b69e8be6ac3cc08862cdab9744f47af5325f5ac9ceb08d3f50c18d983f",
+      "previousHash": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
       "status": "ok",
-      "sha256": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
+      "sha256": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "betterment",
+      "url": "https://www.betterment.com/legal/cash-reserve-program-banks",
+      "key": "betterment__www_betterment_com_legal_cash_reserve_program_banks",
+      "previousHash": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
+      "status": "ok",
+      "sha256": "e4a925588f553376c23dc390827a063f910cecbd9baf13d659e37734e9e6d0f4",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "acorns",
+      "url": "https://www.acorns.com/",
+      "key": "acorns__www_acorns_com",
+      "previousHash": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
+      "status": "ok",
+      "sha256": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
       "changed": true,
       "firstSnapshot": false
     }
@@ -340,8 +370,8 @@
       "key": "robinhood__robinhood_com_us_en",
       "previousHash": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
       "status": "ok",
-      "sha256": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
-      "changed": false,
+      "sha256": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -398,9 +428,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "9dc780b69e8be6ac3cc08862cdab9744f47af5325f5ac9ceb08d3f50c18d983f",
+      "previousHash": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
       "status": "ok",
-      "sha256": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
+      "sha256": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
       "changed": true,
       "firstSnapshot": false
     },
@@ -419,8 +449,8 @@
       "key": "betterment__www_betterment_com_legal_cash_reserve_program_banks",
       "previousHash": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
       "status": "ok",
-      "sha256": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
-      "changed": false,
+      "sha256": "e4a925588f553376c23dc390827a063f910cecbd9baf13d659e37734e9e6d0f4",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -429,8 +459,8 @@
       "key": "acorns__www_acorns_com",
       "previousHash": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
       "status": "ok",
-      "sha256": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
-      "changed": false,
+      "sha256": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
+      "changed": true,
       "firstSnapshot": false
     },
     {
