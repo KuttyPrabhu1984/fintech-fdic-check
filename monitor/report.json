@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:28:17.484Z",
+  "generatedAt": "2026-11-09T19:45:56.611Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -7,19 +7,29 @@
     "bankMismatches": 0,
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
-    "disclosureChanges": 4,
+    "disclosureChanges": 3,
     "disclosureFetchErrors": 2
   },
   "alert": true,
   "bankMismatches": [],
   "disclosureChanges": [
     {
-      "app": "robinhood",
-      "url": "https://robinhood.com/us/en/",
-      "key": "robinhood__robinhood_com_us_en",
-      "previousHash": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
+      "app": "current",
+      "url": "https://current.com/",
+      "key": "current__current_com",
+      "previousHash": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
       "status": "ok",
-      "sha256": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
+      "sha256": "241ed730a396c98b575c083fe8675a343986cd11a46e1025b70528ad0ebe1dc5",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "varo",
+      "url": "https://www.varomoney.com/",
+      "key": "varo__www_varomoney_com",
+      "previousHash": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
+      "status": "ok",
+      "sha256": "d8d0b85db6c4683823d8bdcc03d42e0a152a756e05f697304bd91b2604550f9a",
       "changed": true,
       "firstSnapshot": false
     },
@@ -27,29 +37,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
+      "previousHash": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
       "status": "ok",
-      "sha256": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
-      "changed": true,
-      "firstSnapshot": false
-    },
-    {
-      "app": "betterment",
-      "url": "https://www.betterment.com/legal/cash-reserve-program-banks",
-      "key": "betterment__www_betterment_com_legal_cash_reserve_program_banks",
-      "previousHash": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
-      "status": "ok",
-      "sha256": "e4a925588f553376c23dc390827a063f910cecbd9baf13d659e37734e9e6d0f4",
-      "changed": true,
-      "firstSnapshot": false
-    },
-    {
-      "app": "acorns",
-      "url": "https://www.acorns.com/",
-      "key": "acorns__www_acorns_com",
-      "previousHash": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
-      "status": "ok",
-      "sha256": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
+      "sha256": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
       "changed": true,
       "firstSnapshot": false
     }
@@ -368,10 +358,10 @@
       "app": "robinhood",
       "url": "https://robinhood.com/us/en/",
       "key": "robinhood__robinhood_com_us_en",
-      "previousHash": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
+      "previousHash": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
       "status": "ok",
       "sha256": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
@@ -400,8 +390,8 @@
       "key": "current__current_com",
       "previousHash": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
       "status": "ok",
-      "sha256": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
-      "changed": false,
+      "sha256": "241ed730a396c98b575c083fe8675a343986cd11a46e1025b70528ad0ebe1dc5",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -410,8 +400,8 @@
       "key": "varo__www_varomoney_com",
       "previousHash": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
       "status": "ok",
-      "sha256": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
-      "changed": false,
+      "sha256": "d8d0b85db6c4683823d8bdcc03d42e0a152a756e05f697304bd91b2604550f9a",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -428,9 +418,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "125d01e08fdff7a96791b69ae31d0b87ffc1e22ce890751430244b2fdeb73cee",
+      "previousHash": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
       "status": "ok",
-      "sha256": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
+      "sha256": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
       "changed": true,
       "firstSnapshot": false
     },
@@ -447,20 +437,20 @@
       "app": "betterment",
       "url": "https://www.betterment.com/legal/cash-reserve-program-banks",
       "key": "betterment__www_betterment_com_legal_cash_reserve_program_banks",
-      "previousHash": "6c8264b84f6fcf8abce510b01eb1aef7ba8270239972c867b5e8d75af2d8a76a",
+      "previousHash": "e4a925588f553376c23dc390827a063f910cecbd9baf13d659e37734e9e6d0f4",
       "status": "ok",
       "sha256": "e4a925588f553376c23dc390827a063f910cecbd9baf13d659e37734e9e6d0f4",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
       "app": "acorns",
       "url": "https://www.acorns.com/",
       "key": "acorns__www_acorns_com",
-      "previousHash": "1df59b581c2801013726d441a7b59c34bd52d9da54b4e5c3a0abb1deac6a8ec1",
+      "previousHash": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
       "status": "ok",
       "sha256": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
