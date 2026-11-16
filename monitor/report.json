@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T19:45:56.611Z",
+  "generatedAt": "2026-11-16T19:33:38.810Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -7,29 +7,29 @@
     "bankMismatches": 0,
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
-    "disclosureChanges": 3,
-    "disclosureFetchErrors": 2
+    "disclosureChanges": 4,
+    "disclosureFetchErrors": 3
   },
   "alert": true,
   "bankMismatches": [],
   "disclosureChanges": [
     {
-      "app": "current",
-      "url": "https://current.com/",
-      "key": "current__current_com",
-      "previousHash": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
+      "app": "sofi",
+      "url": "https://www.sofi.com/banking/fdic/",
+      "key": "sofi__www_sofi_com_banking_fdic",
+      "previousHash": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
       "status": "ok",
-      "sha256": "241ed730a396c98b575c083fe8675a343986cd11a46e1025b70528ad0ebe1dc5",
+      "sha256": "34c41c2e74f758cae97befe8b076efba43b6a39dcd2da409ce750d0648bf2440",
       "changed": true,
       "firstSnapshot": false
     },
     {
-      "app": "varo",
-      "url": "https://www.varomoney.com/",
-      "key": "varo__www_varomoney_com",
-      "previousHash": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
+      "app": "cash-app",
+      "url": "https://cash.app/legal/us/en-us/tos",
+      "key": "cash-app__cash_app_legal_us_en_us_tos",
+      "previousHash": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
       "status": "ok",
-      "sha256": "d8d0b85db6c4683823d8bdcc03d42e0a152a756e05f697304bd91b2604550f9a",
+      "sha256": "3104f58f0fd058745b62ca7b60067d82bb9730401a75c8b522433ce30b720ea2",
       "changed": true,
       "firstSnapshot": false
     },
@@ -37,9 +37,19 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
+      "previousHash": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
       "status": "ok",
-      "sha256": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
+      "sha256": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "acorns",
+      "url": "https://www.acorns.com/",
+      "key": "acorns__www_acorns_com",
+      "previousHash": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
+      "status": "ok",
+      "sha256": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
       "changed": true,
       "firstSnapshot": false
     }
@@ -300,8 +310,8 @@
       "key": "sofi__www_sofi_com_banking_fdic",
       "previousHash": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
       "status": "ok",
-      "sha256": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
-      "changed": false,
+      "sha256": "34c41c2e74f758cae97befe8b076efba43b6a39dcd2da409ce750d0648bf2440",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -310,8 +320,8 @@
       "key": "cash-app__cash_app_legal_us_en_us_tos",
       "previousHash": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
       "status": "ok",
-      "sha256": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
-      "changed": false,
+      "sha256": "3104f58f0fd058745b62ca7b60067d82bb9730401a75c8b522433ce30b720ea2",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -329,10 +339,9 @@
       "url": "https://www.paypal.com/us/legalhub/paypal/useragreement-full",
       "key": "paypal__www_paypal_com_us_legalhub_paypal_useragreement_full",
       "previousHash": "261a14a5c1d26a34116e98dfcd3f0b4777b1b6a51f1347f5b380b17711fd9897",
-      "status": "ok",
-      "sha256": "261a14a5c1d26a34116e98dfcd3f0b4777b1b6a51f1347f5b380b17711fd9897",
-      "changed": false,
-      "firstSnapshot": false
+      "status": "fetch_error",
+      "error": "HTTP 403",
+      "changed": false
     },
     {
       "app": "wise",
@@ -388,20 +397,20 @@
       "app": "current",
       "url": "https://current.com/",
       "key": "current__current_com",
-      "previousHash": "6fc51e737581954a994d7ba290c72fd2622dd34b57189479554a5a575e03479f",
+      "previousHash": "241ed730a396c98b575c083fe8675a343986cd11a46e1025b70528ad0ebe1dc5",
       "status": "ok",
       "sha256": "241ed730a396c98b575c083fe8675a343986cd11a46e1025b70528ad0ebe1dc5",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
       "app": "varo",
       "url": "https://www.varomoney.com/",
       "key": "varo__www_varomoney_com",
-      "previousHash": "d139b8cbbe6ea15e82ad053c55be0ca42ac1268cf7b9d144e165fc93e96c39e0",
+      "previousHash": "d8d0b85db6c4683823d8bdcc03d42e0a152a756e05f697304bd91b2604550f9a",
       "status": "ok",
       "sha256": "d8d0b85db6c4683823d8bdcc03d42e0a152a756e05f697304bd91b2604550f9a",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
@@ -418,9 +427,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "499256157306b72a921f71741ea18983c33e28af61662b79db5d4abf20819f42",
+      "previousHash": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
       "status": "ok",
-      "sha256": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
+      "sha256": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
       "changed": true,
       "firstSnapshot": false
     },
@@ -449,8 +458,8 @@
       "key": "acorns__www_acorns_com",
       "previousHash": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
       "status": "ok",
-      "sha256": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
-      "changed": false,
+      "sha256": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
+      "changed": true,
       "firstSnapshot": false
     },
     {
