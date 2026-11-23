@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T19:33:38.810Z",
+  "generatedAt": "2026-11-23T21:16:40.610Z",
   "dataVersion": "2026.10.22-1",
   "schemaVersion": 1,
   "summary": {
@@ -7,29 +7,39 @@
     "bankMismatches": 0,
     "bankFetchErrors": 0,
     "disclosuresChecked": 18,
-    "disclosureChanges": 4,
+    "disclosureChanges": 6,
     "disclosureFetchErrors": 3
   },
   "alert": true,
   "bankMismatches": [],
   "disclosureChanges": [
     {
-      "app": "sofi",
-      "url": "https://www.sofi.com/banking/fdic/",
-      "key": "sofi__www_sofi_com_banking_fdic",
-      "previousHash": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
+      "app": "wise",
+      "url": "https://wise.com/us/",
+      "key": "wise__wise_com_us",
+      "previousHash": "88bd8bc543f91f2ee671b6e0801fece74e6ef6994e085dd773dfbb02fe628cdb",
       "status": "ok",
-      "sha256": "34c41c2e74f758cae97befe8b076efba43b6a39dcd2da409ce750d0648bf2440",
+      "sha256": "57671e1140875a215d25bc52bf5bde8c9dddc6110be8a00f5b773884d2778f6d",
       "changed": true,
       "firstSnapshot": false
     },
     {
-      "app": "cash-app",
-      "url": "https://cash.app/legal/us/en-us/tos",
-      "key": "cash-app__cash_app_legal_us_en_us_tos",
-      "previousHash": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
+      "app": "robinhood",
+      "url": "https://robinhood.com/us/en/",
+      "key": "robinhood__robinhood_com_us_en",
+      "previousHash": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
       "status": "ok",
-      "sha256": "3104f58f0fd058745b62ca7b60067d82bb9730401a75c8b522433ce30b720ea2",
+      "sha256": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "ally",
+      "url": "https://www.ally.com/bank/fdic/",
+      "key": "ally__www_ally_com_bank_fdic",
+      "previousHash": "2882df3123d83fa0ebf7b9e292b8c5bc0bf823836da2e67b0b0a47ce6ce0d75f",
+      "status": "ok",
+      "sha256": "290bec27d9a87c491ecc19912a2d68ff8105b982e84506d9f127728cb918502c",
       "changed": true,
       "firstSnapshot": false
     },
@@ -37,9 +47,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
+      "previousHash": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
       "status": "ok",
-      "sha256": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
+      "sha256": "4a291714dc27a1d3d578c0c716e3796aeefa5a6655e0eba27adf6cfb76df16e3",
       "changed": true,
       "firstSnapshot": false
     },
@@ -47,9 +57,19 @@
       "app": "acorns",
       "url": "https://www.acorns.com/",
       "key": "acorns__www_acorns_com",
-      "previousHash": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
+      "previousHash": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
       "status": "ok",
-      "sha256": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
+      "sha256": "2d47c7207c901ea9cc453895fd823e89bc95d9fa7c57ee4ce0b493541ff1bb33",
+      "changed": true,
+      "firstSnapshot": false
+    },
+    {
+      "app": "albert",
+      "url": "https://albert.com/",
+      "key": "albert__albert_com",
+      "previousHash": "abf8d8d295ef26268d57f58a03923cff0b25b8f76cbc2985820bc937eacfe805",
+      "status": "ok",
+      "sha256": "c1d2fb1f40e60339d91a12c01ecbffb4b94a15603d5ba016c19824966589d6d8",
       "changed": true,
       "firstSnapshot": false
     }
@@ -308,20 +328,20 @@
       "app": "sofi",
       "url": "https://www.sofi.com/banking/fdic/",
       "key": "sofi__www_sofi_com_banking_fdic",
-      "previousHash": "a796b46be6aa72da672e022bda0fcfa90f28aee058ecd526f4b382c75e078184",
+      "previousHash": "34c41c2e74f758cae97befe8b076efba43b6a39dcd2da409ce750d0648bf2440",
       "status": "ok",
       "sha256": "34c41c2e74f758cae97befe8b076efba43b6a39dcd2da409ce750d0648bf2440",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
       "app": "cash-app",
       "url": "https://cash.app/legal/us/en-us/tos",
       "key": "cash-app__cash_app_legal_us_en_us_tos",
-      "previousHash": "65cd2a7275472a8fe31b6ebf0a0cc7b7005d873704d16e7d27e988b8136627bf",
+      "previousHash": "3104f58f0fd058745b62ca7b60067d82bb9730401a75c8b522433ce30b720ea2",
       "status": "ok",
       "sha256": "3104f58f0fd058745b62ca7b60067d82bb9730401a75c8b522433ce30b720ea2",
-      "changed": true,
+      "changed": false,
       "firstSnapshot": false
     },
     {
@@ -349,8 +369,8 @@
       "key": "wise__wise_com_us",
       "previousHash": "88bd8bc543f91f2ee671b6e0801fece74e6ef6994e085dd773dfbb02fe628cdb",
       "status": "ok",
-      "sha256": "88bd8bc543f91f2ee671b6e0801fece74e6ef6994e085dd773dfbb02fe628cdb",
-      "changed": false,
+      "sha256": "57671e1140875a215d25bc52bf5bde8c9dddc6110be8a00f5b773884d2778f6d",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -369,8 +389,8 @@
       "key": "robinhood__robinhood_com_us_en",
       "previousHash": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
       "status": "ok",
-      "sha256": "e33e6fbf0b840ee5cba8e810d41279d9658a75867b2161a7876cc4cb05a197f9",
-      "changed": false,
+      "sha256": "f9e795e7136844b6da32d9210212e9650ffe6dc38ab692a5af6c2c107c67fd88",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -389,8 +409,8 @@
       "key": "ally__www_ally_com_bank_fdic",
       "previousHash": "2882df3123d83fa0ebf7b9e292b8c5bc0bf823836da2e67b0b0a47ce6ce0d75f",
       "status": "ok",
-      "sha256": "2882df3123d83fa0ebf7b9e292b8c5bc0bf823836da2e67b0b0a47ce6ce0d75f",
-      "changed": false,
+      "sha256": "290bec27d9a87c491ecc19912a2d68ff8105b982e84506d9f127728cb918502c",
+      "changed": true,
       "firstSnapshot": false
     },
     {
@@ -427,9 +447,9 @@
       "app": "revolut-us",
       "url": "https://play.google.com/store/apps/details?id=com.revolut.revolut&hl=en_US&gl=US",
       "key": "revolut-us__play_google_com_store_apps_details_id_com_revolut_revolut_hl_en_US_gl_US",
-      "previousHash": "0b51ed992c0f8cb3e1c66b411e738ccdd50e52ef37990bdbcd1016e313e55a65",
+      "previousHash": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
       "status": "ok",
-      "sha256": "9e50ac35cd26472a883fb4e371ab6fe3fabc799d3e52fe7063f6fb10e932916c",
+      "sha256": "4a291714dc27a1d3d578c0c716e3796aeefa5a6655e0eba27adf6cfb76df16e3",
       "changed": true,
       "firstSnapshot": false
     },
@@ -456,9 +476,9 @@
       "app": "acorns",
       "url": "https://www.acorns.com/",
       "key": "acorns__www_acorns_com",
-      "previousHash": "1cdadce1f95b6891d1ce342346dc41d2f729f334d49c11f0fc8e1c91624c184f",
+      "previousHash": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
       "status": "ok",
-      "sha256": "dc7d38533e8dcae2c13e72d6664e8a8e36135480051407c24a240908ac4d0670",
+      "sha256": "2d47c7207c901ea9cc453895fd823e89bc95d9fa7c57ee4ce0b493541ff1bb33",
       "changed": true,
       "firstSnapshot": false
     },
@@ -468,8 +488,8 @@
       "key": "albert__albert_com",
       "previousHash": "abf8d8d295ef26268d57f58a03923cff0b25b8f76cbc2985820bc937eacfe805",
       "status": "ok",
-      "sha256": "abf8d8d295ef26268d57f58a03923cff0b25b8f76cbc2985820bc937eacfe805",
-      "changed": false,
+      "sha256": "c1d2fb1f40e60339d91a12c01ecbffb4b94a15603d5ba016c19824966589d6d8",
+      "changed": true,
       "firstSnapshot": false
     }
   ]
